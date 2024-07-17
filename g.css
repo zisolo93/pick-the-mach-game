@@ -1,0 +1,131 @@
+#imgcon{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    border: 5px solid peru;
+    width:650px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.219);
+    box-shadow: 5px 5px rgba(165, 159, 159, 0.735);
+}
+#body{
+    background-image: url('backg.jpg');
+    background-size: cover;
+    
+}
+#ishow{
+    position: absolute;
+    margin-top: -430px;
+}
+#mesage{
+    border: 2px solid gray;
+    background-color: wheat;
+    width: 200px;
+    height: 100px;
+    margin-top: -290px;
+    margin-left: 120px;
+    position: absolute;
+    border-radius: 40px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px;
+    padding-top: 8px;
+    
+}
+#Gscore{
+    border: 2px solid rgb(175, 195, 23);
+    width: 120px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 30px;
+    margin-left: 180px;
+    margin-top: -50px;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-family: "cursive";
+
+}
+#score{
+    font-size: 40px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 2px solid rgb(175, 195, 23);
+}
+
+button{
+    width: 150px;
+    height: 150px;
+    border: peru 5px solid;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.13);
+    color: rgb(175, 25, 25);
+    position: absolute;
+    border-left-color:transparent ;
+    margin-left: 1055px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-top: -320px;
+    text-shadow: 2px 2px rgba(148, 53, 236, 0.486);
+    font-size: 40px;
+
+}
+#pause{
+    visibility: hidden;
+}
+#gover{
+    width: 656px;
+    background-color: rgb(16, 70, 71);
+    border: 2px solid orangered;
+    position: absolute;
+    height: 100px;
+    margin-top: -300px;
+    margin-left: 400px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'chiller';
+    font-weight: bolder;
+    padding-top: 10px;
+    color: blue;
+    text-shadow: 2px 2px wheat;
+    visibility: hidden;
+}
+#newg{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 600px;
+    margin-top: 0;
+    border: rgb(240, 235, 230) 2px solid;
+    border-radius: 10px;
+    background-color: rgb(112, 76, 10);
+    box-shadow: 6px 6px black;
+    color: rgb(100, 6, 6);
+    text-shadow: 2px 2px green;
+   
+}
+a{
+    text-decoration: none;
+}
+
+#menu{
+    margin-left: 1200px;
+    position: absolute;
+    background-color: black;
+    border-color: transparent;
+    margin-top: -550px;
+    color: white;
+    text-shadow: none;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid wheat;
+    border-radius: 30px;
+  
+}
